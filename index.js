@@ -6,15 +6,19 @@ function whisper(string) {
   return string.toLowerCase()
 }
 function logShout(string) {
-  console.log('hello'.toUpperCase())
+  console.log(string.toUpperCase())
 }
 
 function logWhisper(string) {
-  console.log('hello'.toLowerCase())
+  console.log(string.toLowerCase())
 }
-function SayHiToGrandma(hi){
-  return hi.toUpperCase()
-  === uppercase
+function SayHiToGrandma(string){
+ if(string.toLowerCase() === string){
+   return "I can't hear you!"
+ }else if (string.toUpperCase() == string){
+   return "YES INDEED!"
+ }else
+  return "I love you too."
 }
 
 
